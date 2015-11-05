@@ -97,20 +97,17 @@ textarea {
 body{
     font-family: 'Dosis', sans-serif;
 }
-.image {
-   max-width: 960px;
-    margin: 0 auto;
-}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
 
 .header {
-    position: fixed;
-    z-index: 21;
-    margin: 0px 0;
-    text-align: left;
+    width: 960px;
+    height: auto;
+    margin: 0;
+    float: left;
 
 }
 .title {
