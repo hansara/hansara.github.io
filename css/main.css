@@ -130,7 +130,7 @@ body{
 }
 
 .item .item-header {
-    position: absolute;
+    position: fixed;
     text-align: right;
     font-size: 15px;
     font-weight: 500;
