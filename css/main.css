@@ -120,6 +120,10 @@ body{
     margin-top: 10px;
 }
 
+.menu {
+    margin: 50px 0;
+    text-align: right;
+
 .item .item-header {
     margin: 50px 0;
     text-align: right;
