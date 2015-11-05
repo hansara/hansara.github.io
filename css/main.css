@@ -106,7 +106,7 @@ body{
 .header {
     width: 960px;
     height: auto;
-    margin: 0;
+    margin-top: 80px;
 
 }
 .title {
@@ -115,24 +115,35 @@ body{
 }
 
 .sub-title {
+    top: 50px;
     font-weight: 300;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 17px;
+    margin-top: 100px;
+    float: left;
 }
 
-.true {
-    width: 100px;
-    height: 300px;
+.sub-title1 {
+    top: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 100px;
+    margin-left: 250px;
+    float: left;
 }
 
-.good {
-position: fixed;
-    top: 100px;
-    left: 300px;
+.sub-title2 {
+    position: absolute;
+    top: 400px;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 50px;
+    float: left;
 }
 
 .menu {
-    margin: 50px 0;
+    position: absolute;
+    left: 900px;
+    margin: 20px 0;
     text-align: right;
 }
 
