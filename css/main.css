@@ -120,7 +120,12 @@ body{
     margin-top: 10px;
 }
 
-.true {
+.true{
+    width: 100px;
+    height: 300px;
+}
+
+.good {
 position: fixed;
     top: 100px;
     left: 300px;
@@ -128,6 +133,7 @@ position: fixed;
 .menu {
     margin: 50px 0;
     text-align: right;
+}
 
 .item .item-header {
     margin: 50px 0;
