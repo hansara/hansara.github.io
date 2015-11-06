@@ -107,12 +107,17 @@ body{
 .header {
     width: 960px;
     height: auto;
-    margin-top: 80px;
+    margin-top: 0px;
 
 }
 .title {
     position: relative;
-    padding-left: 20px;
+    widows: 230;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
     font-size: 30px;
     font-weight: 700;
     margin-top: 90px;
@@ -158,28 +163,10 @@ body{
     color: #cccccc;
     position: relative;
     float: left;
-    left: 750px;
+    left: 585px;
     margin-top: 30px;
     margin-left: 20px;
     font-size: 13px;
-}
-
-.menu {
-    color: #c0c0c0;
-    width: 40px;
-    height: 10px;
-    float: right;
-    font-size: 11px;
-
-}
-
-.menu1 {
-    color: #c0c0c0;
-    width: 20px;
-    height: 50px;
-    margin-right: 100px;
-    float: right;
-    font-size: 11px;
 }
 
 .item .item-header {
@@ -208,58 +195,106 @@ body{
 .box {
     position: relative;
     color: #555555;
-    widows: 230px;
-    height: 260px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: whitesmoke;
     float: left;
-    margin-left: 40px;
+    left: 40px;
     font-size: 12px;
-    font-variant: 20px;
-}
 
+}
 
 .box1 {
     position: relative;
-    margin-left: 100px;
-    height: 260px;
+    left: 75px;
     color: #c0c0c0;
     float: left;
     font-size: 12px;
-    font-variant: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
-}
-
-.box2 {
-    position: relative;
-    margin-top: 20px;
-    height: 260px;
-    color: #c0c0c0;
-    float: left;
-    font-size: 12px;
-    font-variant: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: white;
 }
 
 .box3 {
     position: relative;
-    margin-left: 100px;
-    height: 260px;
+    top: 60px;
+    left: 40px;
     color: #c0c0c0;
     float: left;
     font-size: 12px;
-    font-variant: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}
+
+
+.box4{
+    position: relative;
+    top: 60px;
+    left: 70px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}
+
+.box5 {
+    position: relative;
+    top: 90px;
+    left: 40px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}
+
+
+.box6 {
+    position: relative;
+    top: 90px;
+    left: 70px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}
+
+.box7 {
+    position: relative;
+    top: 120px;
+    left: 40px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}
+
+
+.box8 {
+    position: relative;
+    top: 120px;
+    left: 80px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     background-color: white;
 }
 
@@ -268,31 +303,136 @@ body{
     color: #cccccc;
     font-size: 9px;
     font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
 }
 
 .b2 {
     float: left;
-    margin-left: 175px;
+    margin-left: 165px;
     color: #cccccc;
     font-size: 9px;
     font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
 }
 
 .b3 {
     float: left;
-    color: brown;
+    color: red;
     font-size: 9px;
     font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
 }
 
 .b4 {
     float: left;
-    margin-left: 175px;
+    margin-left: 165px;
     color: #cccccc;
     font-size: 9px;
     font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
 }
 
+.b5 {
+    float: left;
+    color: red;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b6 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b7 {
+    float: left;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b8 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b9 {
+    float: left;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b10 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b11 {
+    float: left;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b12 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b13 {
+    float: left;
+    color: red;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b14 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b15 {
+    float: left;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+
+.b16 {
+    float: left;
+    margin-left: 165px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
