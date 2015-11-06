@@ -96,6 +96,7 @@ textarea {
    ========================================================================== */
 body{
     font-family: 'Dosis', sans-serif;
+    position: relative;
 }
 
 .container {
@@ -110,8 +111,11 @@ body{
 
 }
 .title {
+    position: relative;
+    padding-left: 20px;
     font-size: 30px;
     font-weight: 700;
+    margin-top: 90px;
 }
 
 .sub-title {
@@ -140,11 +144,42 @@ body{
     float: left;
 }
 
-.menu {
+.red {
+    float: left;
+}
+
+.img {
     position: absolute;
-    left: 900px;
-    margin: 20px 0;
-    text-align: right;
+    margin-top: 0px;
+}
+
+
+.mainmenu {
+    color: #cccccc;
+    position: relative;
+    float: left;
+    left: 750px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.menu {
+    color: #c0c0c0;
+    width: 40px;
+    height: 10px;
+    float: right;
+    font-size: 11px;
+
+}
+
+.menu1 {
+    color: #c0c0c0;
+    width: 20px;
+    height: 50px;
+    margin-right: 100px;
+    float: right;
+    font-size: 11px;
 }
 
 .item .item-header {
@@ -166,14 +201,97 @@ body{
 .item .item-header .item-header {
 }
 
+.h1 {
+    color: #b3d4fc;
+}
+
+.box {
+    position: relative;
+    color: #555555;
+    widows: 230px;
+    height: 260px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 40px;
+    font-size: 12px;
+    font-variant: 20px;
+}
 
 
+.box1 {
+    position: relative;
+    margin-left: 100px;
+    height: 260px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    font-variant: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
 
+.box2 {
+    position: relative;
+    margin-top: 20px;
+    height: 260px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    font-variant: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
 
+.box3 {
+    position: relative;
+    margin-left: 100px;
+    height: 260px;
+    color: #c0c0c0;
+    float: left;
+    font-size: 12px;
+    font-variant: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
 
+.b1 {
+    float: left;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+}
 
+.b2 {
+    float: left;
+    margin-left: 175px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+}
 
+.b3 {
+    float: left;
+    color: brown;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+}
 
+.b4 {
+    float: left;
+    margin-left: 175px;
+    color: #cccccc;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+}
 
 
 /* ==========================================================================
