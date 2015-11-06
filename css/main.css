@@ -149,13 +149,9 @@ body{
     float: left;
 }
 
-.red {
-    float: left;
-}
-
 .img {
-    position: absolute;
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
@@ -183,9 +179,6 @@ body{
     left: 5px;
     font-size: 15px;
     font-weight: 500;
-}
-
-.item .item-header .item-header {
 }
 
 .h1 {
@@ -434,6 +427,18 @@ body{
     padding-bottom: 50px;
 }
 
+.cc {
+    position: absolute;
+    top: 1500px;
+    color: gray;
+    font-size: 9.3px;
+    padding-top: 27px;
+    padding-left: 110px;
+    padding-right: 700px;
+    padding-bottom: 27px;
+    font-family: 'Karla', sans-serif;
+    background-color: whitesmoke;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
