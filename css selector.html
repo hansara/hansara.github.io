@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main4.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <!--[if lt IE 8]>
@@ -24,73 +24,53 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<div class="nav">
-    <div class="container">
-        <div class="logo">logo</div>
-        <div class="menu">
-            <span>menu1</span>
-            <span>menu2</span>
-            <span>menu3</span>
-            <span>menu4</span>
-            <span>menu5</span>
-        </div>
-    </div>
-</div>
+<meta charset="utf-8">
+<title>title</title>
 
-<div class="cover">
-    <div class="container">
-        <div class="flex">
-            <div class="flex-box">
-                <div class="title">About COS</div>
-                <div class="subtitle">Cos workroom</div>
-            </div>
-        </div>
-    </div>
-</div>
+<style>
+    ::selection{
+        background-color: gainsboro;
+        color:white;
+    }
 
-<div class="content">
-    <div class="container clearfix">
-        <div class="float">
-            <div class="item_1">
-                <img src="img/e.png" width="100%"/>
-            today</div>
-        </div>
-        <div class="float">
-            <div class="item-img">
-            <div class="item-box">
-            </div>
-            </div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-        <div class="float">
-            <div class="item"></div>
-        </div>
-    </div>
-</div>
+    a {
+        top: 50px;
+        position: relative;
+        margin: 20px;
+        padding: 5px;
+        color: red;
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 3px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    }
 
+    a .box {
+        visibility: hidden;
+    }
 
+    a:hover {
+        background-color: gold;
+    }
 
+    a:hover .box {
+        visibility: visible;
+    }
 
+    a:active {
+        background-color: blue;
+    }
 
-
-
+</style>
+<body>
+aasdfasdfasdfasdf
+<a href="http://wanted.co.kr">
+    wanted!
+    <span class="box">
+        show!
+    </span>
+</a>
+</body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
